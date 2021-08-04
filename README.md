@@ -6,7 +6,8 @@
    Generate Ngrok link, localhost.run link (ssh) also you can generates Backdoors and keyloggers and PHISHING pages like Paypal and snapchat
    At this moment im working at Login Page BruteForcing and Web App vulnerability scanner
 
-![copy_874351722](https://user-images.githubusercontent.com/74313566/128207131-1cb28519-9de4-4a3b-ac9a-51d0b3a69dc4.png)
+![copy_874351722](https://user-images.githubusercontent.com/74313566/128208716-54d99274-f225-4cda-9a3c-e273bce8985c.png)
+
 
 
 
