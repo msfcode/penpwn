@@ -22,12 +22,7 @@ i will work at Exploits, i will add some exploits that is coded by me, also i wi
     version : 2.0
 # Donation 💲
 If you want to help us , to keep going and try to add new options and attacks or exploits :
-   
-      Bitcoin : 3Ak4tm8ABHHLazDp18yeioRrAWoU3Wjxum
-   
-      BAT (Basic Attention Token) : 0xa6c60D1BCeBCC9C6ADEDD8dC1F4228B3925556e3
-   
-      ethereum: 0xEfD6B18a2c954289f0E3287c80391978Ef89bC7d
+<p><a href="https://www.buymeacoffee.com/msfcode"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="msfcode" /></a></p><br><br>
    
    
    # Installation 🔶
