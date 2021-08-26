@@ -39,7 +39,8 @@ If you want to help us , to keep going , please support with only 1$ :
 
 ![Screenshot_2021-08-26_13-23-11](https://user-images.githubusercontent.com/74313566/131009535-4b3e5c33-eb20-4c78-b16c-0e23c3d4b08d.png)
 
-![Screenshot_2021-08-26_13-25-22](https://user-images.githubusercontent.com/74313566/131008776-487fe18d-27d2-4c20-a387-61122a1ec26b.png)
+![Screenshot_2021-08-26_13-25-22](https://user-images.githubusercontent.com/74313566/131010477-52f02db7-9674-4d5b-a3c3-d42fecc3518f.png)
+
 ![Screenshot_2021-08-26_13-25-52](https://user-images.githubusercontent.com/74313566/131008782-f75bac78-18e9-43fd-8394-8cfd305842e2.png)
 
 
