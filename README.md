@@ -23,7 +23,8 @@ If you want to help us , to keep going , please support with only 1$ :
    # Installation 🔶
    NB : Be root before using it (sudo su)
    ##    step 1 (install requirements)
-    root@kali:~# pip install -r requirements.txt
+    root@kali:~# chmod +x setup
+    root@kali:~# ./setup
         NB : if you get any errors contact msfcode at instagram.com
         
    ##    step 2 (execute mphish tool)
