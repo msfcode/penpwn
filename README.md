@@ -1,4 +1,4 @@
-# mphish 🐱‍👤 V1.0.1
+# mphish 🐱‍👤 V2.0.1
  
    mphish is a PowerFull Phishing Tool, developed to help ethical hackers and penetration testers to launch Phishing Attacks by
    using Social Engineering Techniques and methods.
