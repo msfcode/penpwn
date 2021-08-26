@@ -32,15 +32,16 @@ If you want to help us , to keep going , please support with only 1$ :
     or 
     root@kali:~# python3 mphish.py
    
-       
+# USAGE 
+## step 1 
 ![Screenshot_2021-08-26_13-21-29](https://user-images.githubusercontent.com/74313566/131008531-5293165a-f14b-48a5-ac6a-66664e158dc7.png)
-
+## step 2
 ![Screenshot_2021-08-26_13-22-27](https://user-images.githubusercontent.com/74313566/131008744-227cbd68-1546-4aa3-b997-69054cc7f3f9.png)
-
+## step3 
 ![Screenshot_2021-08-26_13-23-11](https://user-images.githubusercontent.com/74313566/131009535-4b3e5c33-eb20-4c78-b16c-0e23c3d4b08d.png)
-
+## step 4
 ![Screenshot_2021-08-26_13-25-22](https://user-images.githubusercontent.com/74313566/131010477-52f02db7-9674-4d5b-a3c3-d42fecc3518f.png)
-
+## step 5
 ![Screenshot_2021-08-26_13-25-52](https://user-images.githubusercontent.com/74313566/131008782-f75bac78-18e9-43fd-8394-8cfd305842e2.png)
 
 
