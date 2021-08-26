@@ -1,0 +1,56 @@
+  <meta charset="utf-8">
+  <title ng-bind="(&#39;loginTitle&#39; | localize) + &#39; - Spotify&#39;">Spotify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="/">
+  <link rel="icon" href="https://accounts.scdn.co/sso/images/favicon.ace4d8543bbb017893402a1e9d1ac1fa.ico">
+  <link href="https://accounts.scdn.co/sso/css/index.85ec3bd7e9e840a69eb1.css" media="screen" rel="stylesheet">
+
+  <script defer src="https://accounts.scdn.co/sso/js/index.85ec3bd7e9e840a69eb1.js" sp-bootstrap></script>
+  <meta ng-non-bindable sp-bootstrap-data='{"phoneFeatureEnabled":false,"previewEnabled":false,"user":false,"tpaState":"AQCRQyMpDHOk9oa2xc1rdrlA+HkN/gIZHrrMokaz8CD83nU61KM0KTu4sJXt4jySfbWk3g0aglQDq1HFqlbCKmfFYFETKUykAauTWa5kTSuj6TZrfKirk4uEpM/wdoM8JiYc/yyAgO4DQi78uRs=","BON":["0","0",-138336920]}'>
+</head>
+<form name="$parent.accounts" method="post" novalidate="" class="ng-pristine ng-valid-sp-disallow-chars ng-invalid ng-invalid-required">
+
+      <div class="row" ng-class="{'has-error': (accounts.username.$dirty &amp;&amp; accounts.username.$invalid) || invalidCredentials}">
+        <div class="col-xs-12">
+          <label for="login-username" class="control-label ng-binding">
+            Email address or username
+          </label>
+          <input ng-model="form.username" type="text" class="form-control input-with-feedback ng-pristine ng-untouched ng-valid-sp-disallow-chars ng-empty ng-invalid ng-invalid-required" name="username" id="login-username" placeholder="Email address or username" required="" sp-disallow-chars=":%&amp;'`´&quot;" sp-disallow-chars-model="usernameDisallowedChars" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" ng-trim="false" ng-change="onInputChange()">
+        </div>
+      </div>
+
+      <div class="row" ng-class="{'has-error': (accounts.password.$dirty &amp;&amp; accounts.password.$invalid) || invalidCredentials}">
+        <div class="col-xs-12">
+          <label for="login-password" class="control-label ng-binding">
+            Password
+          </label>
+          <input ng-model="form.password" type="password" class="form-control input-with-feedback ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" name="password" id="login-password" placeholder="Password" required="" autocomplete="off" ng-trim="false" ng-change="onInputChange()">
+          <!-- ngIf: accounts.password.$dirty && accounts.password.$invalid -->
+        </div>
+      </div>
+
+      <!-- ngIf: showAutomationKey -->
+
+          <div class="row password-reset">
+            <div class="col-xs-12">
+              <p>
+                <a id="reset-password-link" ng-href="https://www.spotify.com/password-reset/" analytics-on="click" analytics-category="Login View" analytics-event="Forgot Button" analytics-label="" class="ng-binding" href="https://www.spotify.com/password-reset/">Forgot your password?</a>
+              </p>
+            </div>
+          </div>
+
+      <div class="row row-submit">
+        <div class="col-xs-12 col-sm-6">
+          <div class="checkbox">
+            <label class="ng-binding">
+              <input ng-model="form.remember" type="checkbox" name="remember" analytics-on="checked" analytics-category="Login View" id="login-remember" class="ng-pristine ng-untouched ng-valid ng-not-empty">
+              Remember me
+              <span class="control-indicator"></span>
+            </label>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <button class="btn btn-block btn-green ng-binding" id="login-button" ng-click="onLoginClick($event)">Log In</button>
+        </div>
+      </div>
+    </form>
