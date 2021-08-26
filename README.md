@@ -15,7 +15,7 @@
     Others : html, css, js
     Project : mphish
     version : 1.0.1
-    I like building phishing pages, backdoors, keyloggers ... and also learning about Exploits Developement
+    I like learning about Exploit Developement
 # Donation 💲
 If you want to help us , to keep going and try to add new options and attacks or exploits :
 <p><a href="https://www.buymeacoffee.com/msfcode"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="msfcode" /></a></p><br><br>   
